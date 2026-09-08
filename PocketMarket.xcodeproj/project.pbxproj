@@ -29,9 +29,22 @@
 		03BC91173050656C005BB13A /* PocketMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		03BC92053050A04B005BB13A /* Exceptions for "PocketMarket" folder in "PocketMarket" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Scripts/generate_mock_listings.py,
+			);
+			target = 03BC90FA30506569005BB13A /* PocketMarket */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		03BC90FD30506569005BB13A /* PocketMarket */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				03BC92053050A04B005BB13A /* Exceptions for "PocketMarket" folder in "PocketMarket" target */,
+			);
 			path = PocketMarket;
 			sourceTree = "<group>";
 		};

@@ -4,7 +4,7 @@
 //
 //  Created by Indu Pandey on 08/09/26.
 //  ListingEntity / PendingChangeEntity are Xcode-codegen'd NSManagedObject
-//  subclasses (see OfflineMarketplace.xcdatamodeld, codeGenerationType=class).
+//  subclasses (see PocketMarket.xcdatamodeld, codeGenerationType=class).
 //  These extensions are the ONLY place Core Data types get translated to/from
 //  domain types — nothing above the Repository ever imports CoreData.
 //

@@ -28,7 +28,7 @@ final class PersistenceController {
     }()
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "OfflineMarketplace")
+        container = NSPersistentContainer(name: "PocketMarket")
         if inMemory {
             container.persistentStoreDescriptions.first?.url = URL(fileURLWithPath: "/dev/null")
         }
