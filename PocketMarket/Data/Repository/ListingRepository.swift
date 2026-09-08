@@ -14,7 +14,7 @@ import CoreData
 import Combine
 import os
 
-private let logger = Logger(subsystem: "com.offlinemarketplace", category: "Repository")
+private let logger = Logger(subsystem: "com.PocketMarket", category: "Repository")
 
 final class ListingRepository: ListingRepositoryProtocol {
     private let persistence: PersistenceController
